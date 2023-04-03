@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(-45deg, #eb0c0c, rgb(18, 127, 230));
+  /* margin-bottom: 0px; */
+}
+
+button {
+  cursor: pointer;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 93px 30px 93px;
+  width: 87vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background: linear-gradient(-45deg, rgb(18, 127, 230), #eb0c0c);
+  /* border: 2px solid #fff; */
+  box-shadow: 0px 0px 10px 10px #fff;
+  border-radius: 15px;
+  /* background-color: #0cb7eb; */
+}
+
+.pdfFileInput {
+  display: flex;
+  height: 20px;
+  /* width: 40px; */
+  margin: 30px 0px 30px 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #0cb7eb;
+  /* border: 1px solid #0cb7eb; */
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.pdfFileInput input.selectPdf {
+  margin-right: 20px;
+  padding: 5px 15px;
+  border: 2px solid #0cb7eb;
+  border-radius: 15px;
+  background-color: #fff;
+  /* margin-top: 20px; */
+}
+
+.pdfFileInput button.selectPdf:hover {
+  background-color: #0cb7eb;
+  transition: 1s;
+}
+
+.pdfFileInput h2 {
+  font-size: 22px;
+}
+
+.languageSelect {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 30px 0;
+  /* align-items: center; */
+}
+
+/* .option {
+  padding-top: 5px;
+} */
+
+.currentLanguage {
+  margin-right: 20px;
+  padding: 5px 10px;
+  border: 2px solid #0cb7eb;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.targetLanguage {
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: 2px solid #0cb7eb;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pdfFileOutput {
+  display: flex;
+  height: 30px;
+  /* width: 40px; */
+  margin: 40px 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #0cb7eb;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.pdfFileOutput button.downloadPdf {
+  margin-right: 20px;
+  padding: 5px 15px;
+  border: 2px solid #0cb7eb;
+  border-radius: 15px;
+  background-color: #fff;
+  /* margin-top: 20px; */
+}
+
+.pdfFileOutput button.downloadPdf:hover {
+  background-color: #0cb7eb;
+  transition: 1s;
+}
+
+.pdfFileOutput h2 {
+  font-size: 22px;
+}
